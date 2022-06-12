@@ -13,7 +13,7 @@ https://docs.google.com/spreadsheets/d/1dhTkwJl1TGAhlQyqhYz2IhJkhwDJ2M2YuYUjln04
 
 ### Semana 1
 -   Presentación: https://view.genial.ly/5f0210dcb9ee450d8ba025c5/presentation-algortimos-semana-1 
--   Código: 
+-   Código: https://github.com/bcarranza/algorithms-umg-2022/tree/main/semana1/cuadraticFormule 
 
 
 ### Semana 2

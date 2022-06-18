@@ -12,14 +12,14 @@ https://docs.google.com/spreadsheets/d/1dhTkwJl1TGAhlQyqhYz2IhJkhwDJ2M2YuYUjln04
 ## Contenido
 
 ### Semana 1
--   Presentación: https://view.genial.ly/5f0210dcb9ee450d8ba025c5/presentation-algortimos-semana-1 
--   Código: https://github.com/bcarranza/algorithms-umg-2022/tree/main/semana1/cuadraticFormule 
--   Recursos: https://www.youtube.com/watch?v=U3CGMyjzlvM
+-   Presentación: [Introdución al curso](https://view.genial.ly/5f0210dcb9ee450d8ba025c5/presentation-algortimos-semana-1)
+-   Código: [CuadraticFormule](https://github.com/bcarranza/algorithms-umg-2022/tree/main/semana1/cuadraticFormule)
+-   Recursos: [Que es un algoritmo?](https://www.youtube.com/watch?v=U3CGMyjzlvM)
 
 ### Semana 2
--   Presentación
--   Código
--   Recursos
+-   Presentación: [Algoritmos, Diagrama de flujos y Programas](https://www.canva.com/design/DAD6yz5I1Fw/mOTtvx7GTgWHFqqYZAViaA/view?utm_content=DAD6yz5I1Fw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+-   Código: [circle (c# y pseint)](https://github.com/bcarranza/algorithms-umg-2022/tree/main/semana2)
+-   Recursos: [youtube: Qué es un DIAGRAMA DE FLUJO](https://www.youtube.com/watch?v=Kucgc6NpGwc)
 
 ### Semana 3
 -   Presentación

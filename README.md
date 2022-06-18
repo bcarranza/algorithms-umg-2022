@@ -7,7 +7,7 @@
 
 
 ## Planificacion del curso
-https://docs.google.com/spreadsheets/d/1dhTkwJl1TGAhlQyqhYz2IhJkhwDJ2M2YuYUjln04xJI/edit?usp=sharing
+[Descargue aquí](https://docs.google.com/spreadsheets/d/1dhTkwJl1TGAhlQyqhYz2IhJkhwDJ2M2YuYUjln04xJI/edit?usp=sharing)
 
 ## Contenido
 

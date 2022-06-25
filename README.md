@@ -23,7 +23,7 @@
 
 ### Semana 3
 -   Presentación [Tipos de Variables, Conversiones Operaciones Matematicas] (https://www.canva.com/design/DAD7dKHy3so/QkcY_qtgdURgiXYSAutV-g/view?utm_content=DAD7dKHy3so&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
--   Código:
+-   Código: [Conversiones] (https://github.com/bcarranza/algorithms-umg-2022/tree/main/semana3)
 -   Recursos: [Apoyo a conversiones] (https://www.youtube.com/watch?v=aVRnPB70JOI)
 
 ### Semana 4

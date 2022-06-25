@@ -25,8 +25,8 @@
 -   Presentación: [Tipos de Variables, Conversiones Operaciones Matematicas](https://www.canva.com/design/DAD7dKHy3so/QkcY_qtgdURgiXYSAutV-g/view?utm_content=DAD7dKHy3so&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 -   Código: [Conversiones](https://github.com/bcarranza/algorithms-umg-2022/tree/main/semana3)
 -   Recursos: [Apoyo a conversiones](https://www.youtube.com/watch?v=aVRnPB70JOI)
-               - https://docs.microsoft.com/en-us/dotnet/api/system.math?view=net-6.0
-               - https://docs.microsoft.com/EN-US/DOTNET/CSHARP/PROGRAMMING-GUIDE/TYPES/CASTING-AND-TYPE-CONVERSIONS
+    - https://docs.microsoft.com/en-us/dotnet/api/system.math?view=net-6.0
+    - https://docs.microsoft.com/EN-US/DOTNET/CSHARP/PROGRAMMING-GUIDE/TYPES/CASTING-AND-TYPE-CONVERSIONS
 ### Semana 4
 -   Presentación
 -   Código

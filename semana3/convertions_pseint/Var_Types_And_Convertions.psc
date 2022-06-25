@@ -69,6 +69,26 @@ Escribir edad
 Escribir valido
 Escribir monto
 
+// Expresiones matematicas
+//Potencia
+a= 5^2
+//Raiz cuadrada
+b = RC(4)
+// Valor absoluto
+c = ABS(-4)
+// Redondear
+d = REDON(4.8)
+// Numero al azar
+e = Azar(10)
+
+//Imprimir 
+Escribir "Potencia: " . a
+Escribir "Raiz Cuadrada: " . b
+Escribir "Valor absoluto: " . c
+Escribir "Redondear: " . d
+Escribir "Azar: " . e
+
+
 
 	
 FinAlgoritmo

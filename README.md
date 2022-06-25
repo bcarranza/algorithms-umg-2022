@@ -27,6 +27,8 @@
 -   Recursos: [Apoyo a conversiones](https://www.youtube.com/watch?v=aVRnPB70JOI)
     - https://docs.microsoft.com/en-us/dotnet/api/system.math?view=net-6.0
     - https://docs.microsoft.com/EN-US/DOTNET/CSHARP/PROGRAMMING-GUIDE/TYPES/CASTING-AND-TYPE-CONVERSIONS
+    - https://www.aprendeaprogramar.com/cursos/verApartado.php?id=2010
+    - https://programandoconcsharp.blogspot.com/2013/10/19-los-operadores-div-y-mod.html 
 ### Semana 4
 -   Presentación
 -   Código

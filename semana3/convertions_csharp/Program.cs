@@ -1,4 +1,5 @@
 ﻿using System.Globalization;
+using System;
 internal class Program
 {
     private static void Main(string[] args)
@@ -52,6 +53,26 @@ internal class Program
         Console.WriteLine("Edad: " + edad);
         Console.WriteLine("Valido: " + valido);
         Console.WriteLine("Monto: " + monto);
+
+        // Expresiones matematicas
+        //Potencia
+        double a= Math.Pow(5,2);
+        //Raiz cuadrada
+        double b = Math.Sqrt(4);
+        // Valor absoluto
+        double c = Math.Abs(-4);
+        // Numero al azar
+        Random rnd = new Random();
+        int e = rnd.Next();
+
+        Console.WriteLine("Potencia: " + a);
+        Console.WriteLine("Raiz cuadrada: " + b);
+        Console.WriteLine("Valor absoluto: " + c);
+        Console.WriteLine("Azar: " + e);
+        
+
+        //Mod y Div
+        ...
 
     }
 }

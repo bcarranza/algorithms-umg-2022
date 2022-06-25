@@ -1,4 +1,8 @@
-﻿using System.Globalization;
+﻿//El siguiente programa no tiene un orden en especifico
+//solo trata de demostrar sintaxis para ciertas conversiones
+//y operaciones matematicas.
+
+using System.Globalization;
 using System;
 internal class Program
 {
@@ -72,7 +76,7 @@ internal class Program
         
 
         //Mod y Div
-        ...
+        //
 
     }
 }

@@ -30,7 +30,7 @@
     - https://www.aprendeaprogramar.com/cursos/verApartado.php?id=2010
     - https://programandoconcsharp.blogspot.com/2013/10/19-los-operadores-div-y-mod.html 
 ### Semana 4
--   Presentación
+-   Presentación: [Estructuras selectivas y de control] (https://www.canva.com/design/DAD7dKHy3so/QkcY_qtgdURgiXYSAutV-g/view?utm_content=DAD7dKHy3so&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink#12)
 -   Código
 -   Recursos
 

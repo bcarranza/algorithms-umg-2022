@@ -3,11 +3,7 @@ using System.Globalization;
 using Figgle;
 internal class Program
 {
-    
-    public enum TipoHuevo {
-            revuelto,
-            estrellado
-    }
+
     private static void Main(string[] args)
     {
         double x_positivo = 0;

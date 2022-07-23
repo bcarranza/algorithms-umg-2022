@@ -1,28 +1,23 @@
 Algoritmo Algoritmo1
-	//Seccion de definicion de variables
+	//{ Lectura de datos }
 	Definir a Como Entero
 	Definir b Como Entero
-	Definir result Como Real
+	Definir r Como Real
+	Definir exponente Como Entero
 	
-	//Solicitud de valores al usuario (incluye la lectura de los mismos)
-	Escribir "Ingrese el valor de a"
+	exponente <- 2
+	
+	Escribir "Ingrese el valor de a: "
 	Leer a
 	
-	//Validacion de la operacion indefinida
-	Si a>0 Entonces
-		
-		Escribir "Ingrese el valor de b"
-		Leer b
-		
-		//Proceso 
-		result<-((a + b)^2)/(3*a)
-		
-		//Impresion de los resultados.
-		Escribir "El resultado de la operacion es: " . result 
-		
-	SiNo
-		Escribir "Esta operacion no es correcta debido a que no existe en el conjunto de los reales."
-	Fin Si
+	Escribir "Ingrese el valor b: "
+	Leer b
 	
+	Si (a=0) | (a Es Caracter | b Es Caracter ) Entonces
+		Escribir "Usted ha ingresando un valor incorrecto"
+	SiNo
+		r<- ((a+b)^exponente)/(3*a)
+		Escribir "El resultado de la operacion es: " . r
+	Fin Si
 	
 FinAlgoritmo

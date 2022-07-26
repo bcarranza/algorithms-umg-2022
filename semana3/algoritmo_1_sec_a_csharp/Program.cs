@@ -8,9 +8,21 @@ internal class Program
     {
         //code here..
         int a,b;
-        float r; 
-        const exponent = 2
+        double r; 
+        const int exponent = 2;
 
-        C
+        Console.WriteLine("Ingrese el valor de a: ");
+        a = Convert.ToInt32(Console.ReadLine()); // La conversion verifica que solo permita numeros
+
+        Console.WriteLine("Ingrese el valor de b: ");
+        b = Convert.ToInt32(Console.ReadLine()); //// La conversion verifica que solo permita numeros
+
+        if (a==0){
+            Console.WriteLine("Usted ha ingresando un valor incorrecto");
+        }
+        else{
+            r = (Math.Pow((a+b),exponent))/(3*a);
+            Console.WriteLine("El resultado de la operacion es: " + r);
+        }
     }
 }

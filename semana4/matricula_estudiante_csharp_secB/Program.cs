@@ -1,7 +1,3 @@
-﻿//El siguiente programa no tiene un orden en especifico
-//solo trata de demostrar sintaxis para ciertas conversiones
-//y operaciones matematicas.
-
 /*
 Enunciado: Enunciado: Dada la matrícula y 5 calificaciones de un alumno 
 obtenidas a lo largo del semestre, construya un diagrama de flujo que 

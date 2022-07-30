@@ -1,6 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.Globalization;
-using Figgle;
 internal class Program
 {
 
@@ -12,7 +11,7 @@ internal class Program
         double b = 0;
         double c = 0;
 
-        Console.WriteLine(FiggleFonts.Ogre.Render("FORMULA CUADRATICA"));
+        Console.WriteLine("FORMULA CUADRATICA");
         Console.Write("Ingrese a: ");
         a = Convert.ToDouble(Console.ReadLine());
         if(a==0)
@@ -30,7 +29,7 @@ internal class Program
         x_positivo = ((b*-1) + Math.Sqrt(Math.Pow(b,2) - (4*a*c)))/(2*a);
         x_negativo = ((b*-1) - Math.Sqrt(Math.Pow(b,2) - (4*a*c)))/(2*a);
         
-        Console.WriteLine(FiggleFonts.Ogre.Render("RESULTADOS"));
+        Console.WriteLine("RESULTADOS");
         
         Console.WriteLine("a + = " + a);
         Console.WriteLine("b - = " + b);

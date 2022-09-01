@@ -27,12 +27,12 @@ public class Program
             {
                 case 1:
                     Console.WriteLine("Ingresando valores al arreglo");
-				    for (int i = 0; i < list.Length; i++)
+                    for (int i = 0; i < list.Length; i++)
                     {
                         Console.WriteLine("Ingrese un numero para la posición " + i);
                         list[i]=Convert.ToInt32(Console.ReadLine());     
                     }
-				    Console.WriteLine("Proceso finalizado...");
+                    Console.WriteLine("Proceso finalizado...");
                     break;
                 case 2:
                     Console.WriteLine("Imprimiendo valores del arreglo");
@@ -43,7 +43,7 @@ public class Program
                     break;
                 case 3:
                     Console.WriteLine("Imprimiendo el valor mas alto del arreglo");
-				    buffer=0;
+                    buffer=0;
                     for (int i = 0; i < list.Length; i++)
                     {
                         if (list[i]>buffer)

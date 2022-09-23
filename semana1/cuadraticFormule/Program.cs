@@ -37,7 +37,6 @@ internal class Program
 
         Console.WriteLine("x + = " + x_positivo);
         Console.WriteLine("x - = " + x_negativo);
-
     }
 }
 

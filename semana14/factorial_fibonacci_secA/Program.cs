@@ -1,7 +1,4 @@
-﻿//docs: https://learn.microsoft.com/en-us/troubleshoot/developer/visualstudio/csharp/language-compilers/file-io-operation
-
-using System;
-using System.IO;
+﻿using System;
 public class Program
 {
     public static void Main()
@@ -31,7 +28,7 @@ public class Program
                     numero=Convert.ToInt64(Console.ReadLine());
                     break;
                 case 1:
-                    Console.WriteLine("Factorial de [" + numero + "]: " + Factorial(numero));
+                    Console.WriteLine("Factorial de [" + numero + "]: " + Fact(numero));
                     break;
                 case 2:
                     Console.WriteLine("Fibonacci de [" + numero + "]: " + Fibonacci(numero));
@@ -58,15 +55,28 @@ public class Program
                 return Fibonacci(numero - 1) + Fibonacci(numero - 2);
             }
     }
-    public static long Factorial(long numero)
+    public static long Fact(long n)
     {
-            if (numero == 0)
+            if (n == 0 || n==1)
             {
                 return 1;
             }
             else
             {
-                return Factorial(numero - 1) * numero;
+                return n * Fact(n - 1);
             }
+
+            //ingresa a funcion Factorial (10)
+            //i1: 10 != 0 por lo tanto llama a Factorial(10-1)*10
+            //i2:  9 != 0 por lo tanto llama a Factorial(9-1)*9
+            //i3:  8 != 0 por lo tanto llama a Factorial(8-1)*8
+            //i4:  7 != 0 por lo tanto llama a Factorial(7-1)*7
+            //i5:  6 != 0 por lo tanto llama a Factorial(6-1)*6
+            //i6:  5 != 0 por lo tanto llama a Factorial(5-1)*5
+            //i7:  4 != 0 por lo tanto llama a Factorial(4-1)*4
+            //i8:  3 != 0 por lo tanto llama a Factorial(3-1)*3
+            //i9:  2 != 0 por lo tanto llama a Factorial(2-1)*2
+           //i10:  1 != 0 por lo tanto llama a Factorial(1-1)*1
+           //i11:  0 == 0 por lo tanto retorna 1 (break)
     }
 }

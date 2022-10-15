@@ -1,6 +1,4 @@
-﻿//docs: https://learn.microsoft.com/en-us/troubleshoot/developer/visualstudio/csharp/language-compilers/file-io-operation
-
-using System;
+﻿using System;
 using System.IO;
 public class Program
 {
@@ -8,7 +6,7 @@ public class Program
     {
         // Selector de control de mi menu
         int opc = 0;
-        long numero = 0;
+        long n = 0;
         // Desplegar el menu
         do
         {
@@ -28,13 +26,13 @@ public class Program
             {
                 case 0:
                     Console.WriteLine("Ingrese un numero para calculo: ");
-                    numero=Convert.ToInt64(Console.ReadLine());
+                    n=Convert.ToInt64(Console.ReadLine());
                     break;
                 case 1:
-                    Console.WriteLine("Factorial de [" + numero + "]: " + Factorial(numero));
+                    Console.WriteLine("Factorial de [" + n + "]: " + Factorial(n));
                     break;
                 case 2:
-                    Console.WriteLine("Fibonacci de [" + numero + "]: " + Fibonacci(numero));
+                    Console.WriteLine("Fibonacci de [" + n + "]: " + Fibonacci(n));
                     break;
                 case 3:
                     Console.WriteLine("Adios, gracias por usar el programa");
@@ -47,26 +45,39 @@ public class Program
         } while (opc!=3);
     }
     //methods
-    public static long Fibonacci(long numero)
+    public static long Fibonacci(long n)
     {
-            if (numero <= 1)
+            if (n <= 1)
             {
-                return numero;
+                return n;
             }
             else
             {
-                return Fibonacci(numero - 1) + Fibonacci(numero - 2);
+                return Fibonacci(n - 1) + Fibonacci(n - 2);
             }
     }
-    public static long Factorial(long numero)
+    public static long Factorial(long n)
     {
-            if (numero == 0)
+            if (n == 0 || n == 1)
             {
+                Console.WriteLine("(break) Caso Base: factorial de " + n + " es igual a =" + n);
                 return 1;
             }
             else
             {
-                return Factorial(numero - 1) * numero;
+                Console.WriteLine("iteracion n: " + n + " n-1: " + (n-1));
+                return Factorial(n - 1) * n;
+                
+   
             }
+
+            //tabla de recorrido
+            //i1 = n = 10 -> factorial(10-1)*10
+            //i2 = n = 9  -> factorial( 9-1)*9
+            //i3 = n = 8  -> factorial( 8-1)*8
+            //...
+            //i9 = n = 2  -> factorial( 2-1)*2
+           //i10 = n = 1  -> factorial(1-1)*1
+           //i11 = n = 0  -> break(rompe criterio porque n==0 es 1);   
     }
 }

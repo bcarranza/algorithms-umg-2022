@@ -11,14 +11,14 @@ public class Animal
     }
 }
 
-class Dog : Animal
+public class Dog : Animal
 {
     public override void MakeNoise()
     {
         Console.WriteLine("WoofWoof");
     }
 }
-class Cat : Animal
+public class Cat : Animal
 {
     public override void MakeNoise()
     {
@@ -37,7 +37,7 @@ public class Program
         Console.WriteLine(dog1.Sleep);
 
         Cat cat1 = new Cat();
-        Console.WriteLine("Maullido del perro");
+        Console.WriteLine("Maullido del gato");
         Console.WriteLine(cat1.MakeNoise);
         Console.WriteLine("Gato anda dormi");
         Console.WriteLine(cat1.Sleep);

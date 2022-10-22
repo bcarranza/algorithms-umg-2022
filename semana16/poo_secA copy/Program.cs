@@ -11,14 +11,8 @@ public class Animal
     }
 }
 
-class Dog : Animal
-{
-    public override void MakeNoise()
-    {
-        Console.WriteLine("WoofWoof");
-    }
-}
-class Cat : Animal
+
+public class Cat : Animal
 {
     public override void MakeNoise()
     {

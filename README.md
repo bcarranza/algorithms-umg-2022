@@ -85,3 +85,9 @@
 ### Semana 15 (Segundo Parcial)
 -   Examen resuelto
 -   Recursos
+
+
+
+
+FEATURE A
+Este es un ejemplo que simula un feature A en la rama
